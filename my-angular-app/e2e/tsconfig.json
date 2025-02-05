@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app-e2e",
+    "types": ["jasmine", "jasminewd2", "node"]
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
